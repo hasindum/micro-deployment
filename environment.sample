@@ -12,7 +12,7 @@ environments:
         port: 80
         version: 0.0.1
         requests:
-          cpu: 100m
+          cpu: 10m
         limits:
-          cpu: 500m
-          memory: 100Mi 
+          cpu: 50m
+          memory: 20Mi
