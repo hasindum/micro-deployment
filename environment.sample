@@ -11,3 +11,6 @@ environments:
         ssl: false
         port: 80
         version: 0.0.1
+    limits:
+       cpu: 500m
+       memory: 100Mi    
