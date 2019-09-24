@@ -1,7 +1,7 @@
 ---
 project: microservice
 environments:
-  - name: springboot-app
+  - name: dev
     namespace: sample-app
     deployment:
       method: rolling-upgrade
