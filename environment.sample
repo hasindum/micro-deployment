@@ -1,0 +1,12 @@
+---
+project: microservice
+environments:
+  - name: springboot-app
+    namespace: sample-app
+    deployment:
+      method: rolling-upgrade
+    services:
+      - name: springboot-app
+        external_url: front.sample-app.domain
+        ssl: false
+        port: 80
